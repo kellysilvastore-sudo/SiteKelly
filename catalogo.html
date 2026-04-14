@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo | BellaMolina Modas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <p>✨ Frete Grátis para compras acima de R$ 199</p>
+        </div>
+        <nav class="main-nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>BellaMolina</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="catalogo.html" class="active">Catálogo</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <a href="contato.html" class="whatsapp-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                    </a>
+                    <div class="menu-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Catálogo</h1>
+                <p>Explore nossa coleção completa</p>
+            </div>
+        </section>
+
+        <section class="catalogo-filtros">
+            <div class="container">
+                <div class="filtros-container">
+                    <button class="filtro-btn active" data-categoria="todos">Todos</button>
+                    <button class="filtro-btn" data-categoria="vestidos">Vestidos</button>
+                    <button class="filtro-btn" data-categoria="blusas">Blusas</button>
+                    <button class="filtro-btn" data-categoria="calcas">Calças</button>
+                    <button class="filtro-btn" data-categoria="macacoes">Macacões</button>
+                    <button class="filtro-btn" data-categoria="acessorios">Acessórios</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalogo-produtos">
+            <div class="container">
+                <div class="produtos-grid">
+                    <div class="produto-card" data-categoria="vestidos">
+                        <div class="produto-image">
+                            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400" alt="Vestido Floral Primavera">
+                            <div class="produto-badge">Novo</div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Vestido Floral Primavera</h3>
+                            <p class="categoria">Vestidos</p>
+                            <p class="preco">R$ 149,90</p>
+                            <a href="contato.html?produto=Vestido Floral Primavera" class="btn btn-whatsapp">Pedir no WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="produto-card" data-categoria="vestidos">
+                        <div class="produto-image">
+                            <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400" alt="Vestido Elegante Noir">
+                        </div>
+                        <div class="produto-info">
+                            <h3>Vestido Elegante Noir</h3>
+                            <p class="categoria">Vestidos</p>
+                            <p class="preco">R$ 189,90</p>
+                            <a href="contato.html?produto=Vestido Elegante Noir" class="btn btn-whatsapp">Pedir no WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="produto-card" data-categoria="vestidos">
+                        <div class="produto-image">
+                            <img src="https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400" alt="Vestido Midi Rose">
+                            <div class="produto-badge">Destaque</div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Vestido Midi Rose</h3>
+                            <p class="categoria">Vestidos</p>
+                            <p class="preco">R$ 169,90</p>
+                            <a href="contato.html?produto=Vestido Midi Rose" class="btn btn-whatsapp">Pedir no WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="produto-card" data-categoria="blusas">
+                        <div class="produto-image">
+                            <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400" alt="Blusa Elegante Rose">
+                            <div class="produto-badge">Destaque</div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Blusa Elegante Rose</h3>
+                            <p class="categoria">Blusas</p>
+                            <p class="preco">R$ 89,90</p>
+                            <a href="contato.html?produto=Blusa Elegante Rose" class="btn btn-whatsapp">Pedir no WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="produto-card" data-categoria="blusas">
+                        <div class="produto-image">
+                            <img src="https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=400" alt="Blusa Casual">
+                        </div>
+                        <div class="produto-info">
+                            <h3>Blusa Casual</h3>
+                            <p class="categoria">Blusas</p>
+                            <p class="preco">R$ 79,90</p>
+                            <a href="contato.html?produto=Blusa Casual" class="btn btn-whatsapp">Pedir no WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="produto-card" data-categoria="blusas">
+                        <div class="produto-image">
+                            <img src="https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=400" alt="Blusa Cropped">
+                        </div>
+                        <div class="produto-info">
+                            <h3>Blusa Cropped</h3>
+                            <p class="categoria">Blusas</p>
+                            <p class="preco">R$ 69,90</p>
+                            <a href="contato.html?produto=Blusa Cropped" class="btn btn-whatsapp">Pedir no WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="produto-card" data-categoria="calcas">
+                        <div class="produto-image">
+                            <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400" alt="Calça Jeans High Waist">
+                        </div>
+                        <div class="produto-info">
+                            <h3>Calça Jeans High Waist</h3>
+                            <p class="categoria">Calças</p>
+                            <p class="preco">R$ 129,90</p>
+                            <a href="contato.html?produto=Calça Jeans High Waist" class="btn btn-whatsapp">Pedir no WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="produto-card" data-categoria="calcas">
+                        <div class="produto-image">
+                            <img src="https://images.unsplash.com/photo-1542272617-08f08330386e?w=400" alt="Calça Alfaiataria">
+                            <div class="produto-badge">Novo</div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Calça Alfaiataria</h3>
+                            <p class="categoria">Calças</p>
+                            <p class="preco">R$ 159,90</p>
+                            <a href="contato.html?produto=Calça Alfaiataria" class="btn btn-whatsapp">Pedir no WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="produto-card" data-categoria="calcas">
+                        <div class="produto-image">
+                            <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400" alt="Legging Sport">
+                        </div>
+                        <div class="produto-info">
+                            <h3>Legging Sport</h3>
+                            <p class="categoria">Calças</p>
+                            <p class="preco">R$ 99,90</p>
+                            <a href="contato.html?produto=Legging Sport" class="btn btn-whatsapp">Pedir no WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="produto-card" data-categoria="macacoes">
+                        <div class="produto-image">
+                            <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400" alt="Macacão Estilo">
+                            <div class="produto-badge">Tendência</div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Macacão Estilo</h3>
+                            <p class="categoria">Macacões</p>
+                            <p class="preco">R$ 179,90</p>
+                            <a href="contato.html?produto=Macacão Estilo" class="btn btn-whatsapp">Pedir no WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="produto-card" data-categoria="macacoes">
+                        <div class="produto-image">
+                            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400" alt="Macacão Floral">
+                        </div>
+                        <div class="produto-info">
+                            <h3>Macacão Floral</h3>
+                            <p class="categoria">Macacões</p>
+                            <p class="preco">R$ 199,90</p>
+                            <a href="contato.html?produto=Macacão Floral" class="btn btn-whatsapp">Pedir no WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="produto-card" data-categoria="acessorios">
+                        <div class="produto-image">
+                            <img src="https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=400" alt="Brinco Dourado">
+                        </div>
+                        <div class="produto-info">
+                            <h3>Brinco Dourado</h3>
+                            <p class="categoria">Acessórios</p>
+                            <p class="preco">R$ 49,90</p>
+                            <a href="contato.html?produto=Brinco Dourado" class="btn btn-whatsapp">Pedir no WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="produto-card" data-categoria="acessorios">
+                        <div class="produto-image">
+                            <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400" alt="Colar Elegante">
+                            <div class="produto-badge">Novo</div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Colar Elegante</h3>
+                            <p class="categoria">Acessórios</p>
+                            <p class="preco">R$ 59,90</p>
+                            <a href="contato.html?produto=Colar Elegante" class="btn btn-whatsapp">Pedir no WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="produto-card" data-categoria="acessorios">
+                        <div class="produto-image">
+                            <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400" alt="Bolsa Chic">
+                        </div>
+                        <div class="produto-info">
+                            <h3>Bolsa Chic</h3>
+                            <p class="categoria">Acessórios</p>
+                            <p class="preco">R$ 149,90</p>
+                            <a href="contato.html?produto=Bolsa Chic" class="btn btn-whatsapp">Pedir no WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BellaMolina Modas</h3>
+                    <p>Moda que celebra a resiliência feminina em cada detalhe.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="catalogo.html">Catálogo</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li><a href="contato.html">WhatsApp</a></li>
+                        <li><a href="contato.html">Instagram</a></li>
+                        <li><a href="contato.html">E-mail</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BellaMolina Modas. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Filtro de produtos
+        const filtroBtns = document.querySelectorAll('.filtro-btn');
+        const produtoCards = document.querySelectorAll('.produto-card');
+
+        filtroBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filtroBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                const categoria = btn.dataset.categoria;
+
+                produtoCards.forEach(card => {
+                    if (categoria === 'todos' || card.dataset.categoria === categoria) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Check URL for categoria parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const categoriaParam = urlParams.get('categoria');
+
+        if (categoriaParam) {
+            const categoriaBtn = document.querySelector(`[data-categoria="${categoriaParam}"]`);
+            if (categoriaBtn) {
+                categoriaBtn.click();
+            }
+        }
+    </script>
+</body>
+</html>
